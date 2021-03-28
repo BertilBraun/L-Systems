@@ -1,9 +1,40 @@
-html,
 body {
     margin: 0;
-    padding: 0;
+    padding: 45px;
+    background-color: rgb(24, 24, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 canvas {
     display: block;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+button:first-of-type {
+    margin-top: 50px;
+}
+
+button {
+    display: inline;
+    margin: 16px;
+    background-color: rgb(40, 53, 78);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 100px;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    background-color: rgb(23, 77, 255);
 }

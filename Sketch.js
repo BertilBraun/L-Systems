@@ -1,4 +1,3 @@
-
 var slider;
 var system;
 var lastSliderValue;
@@ -35,7 +34,7 @@ function draw() {
     if (slider.value() != lastSliderValue) {
         background(220);
         stroke(0);
-        strokeWeight(1);
+        strokeWeight(2);
         angleMode(DEGREES);
         system.display(slider.value());
         lastSliderValue = slider.value();
