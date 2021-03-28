@@ -1,35 +1,59 @@
 body {
     margin: 0;
+    margin-left: 395px;
     padding: 45px;
+    min-width: 750px;
     background-color: rgb(24, 24, 27);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 canvas {
     display: block;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: rgb(65, 68, 78);
     margin-bottom: 50px;
 }
 
-button:first-of-type {
-    margin-top: 50px;
+#credit {
+    color: rgb(139, 147, 170);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 45px;
+    right: 45px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    width: 350px;
+    left: 45px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 }
 
 button {
-    display: inline;
-    margin: 16px;
-    background-color: rgb(40, 53, 78);
-    border-radius: 15px;
+    margin: 16px 0;
+    background-color: rgb(58, 79, 173);
+    border-radius: 5px;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
     outline: none;
     border: none;
-    width: 300px;
-    height: 100px;
+    width: 280px;
+    height: 60px;
     transition: 0.2s ease-in-out;
 }
 
